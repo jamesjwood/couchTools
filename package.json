@@ -1,0 +1,17 @@
+{
+  "name": "couchTools",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "nano": "~4.2.0",
+    "prompt": "~0.2.11",
+    "async": "~0.2.9"
+  }
+}
