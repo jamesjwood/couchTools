@@ -14,6 +14,7 @@ prompt.start();
 program
 .version('0.0.1')
 .option('-w, --wipe <url>', 'specify a couchURL to wipe')
+.option('-r, --replicate [from] [to]', 'specify a couchURL to wipe')
 .parse(process.argv);
 
 
@@ -61,4 +62,9 @@ if(program.wipe)
 			callback();
 		}
 	}));
+}
+
+if(program.replicate)
+{
+	console.dir(program.replicate);
 }
