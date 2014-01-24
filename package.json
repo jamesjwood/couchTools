@@ -1,5 +1,5 @@
 {
-  "name": "couchTools",
+  "name": "tsuju-couchtools",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -9,9 +9,9 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "commander": "~2.0.0",
-    "nano": "~4.2.0",
-    "prompt": "~0.2.11",
-    "async": "~0.2.9"
+    "commander": "2.0.x",
+    "nano": "4.2.x",
+    "prompt": "0.2.x",
+    "async": "0.2.x"
   }
 }
